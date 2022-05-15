@@ -1,10 +1,9 @@
 <?php
 
-require_once ('VideoInfoParser.php');
 require_once ('AbstractVideoInfoParser.php');
 
 
-class VimeoVideoInfoParser extends AbstractVideoInfoParser implements VideoInfoParser
+class VimeoVideoInfoParser extends AbstractVideoInfoParser
 {
 
 

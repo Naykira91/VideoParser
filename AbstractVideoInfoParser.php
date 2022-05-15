@@ -1,8 +1,7 @@
 <?php
 
-require_once ('VideoInfoParser.php');
 
-abstract class AbstractVideoInfoParser implements VideoInfoParser
+abstract class AbstractVideoInfoParser
 {
     /**
      * The method returns host name by url

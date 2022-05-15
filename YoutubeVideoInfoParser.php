@@ -1,9 +1,8 @@
 <?php
 
-require_once ('VideoInfoParser.php');
 require_once ('AbstractVideoInfoParser.php');
 
-class YoutubeVideoInfoParser extends AbstractVideoInfoParser implements VideoInfoParser
+class YoutubeVideoInfoParser extends AbstractVideoInfoParser
 {
 
     /**
